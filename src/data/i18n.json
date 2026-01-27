@@ -1,0 +1,18 @@
+{
+  "ja-JP": {
+    "settings": {
+      "title": "アストラリア診断",
+      "language": "言語",
+      "name_mode": "キャラ名",
+      "start": "診断をはじめる"
+    }
+  },
+  "en-US": {
+    "settings": {
+      "title": "Astraia Diagnosis",
+      "language": "Language",
+      "name_mode": "Character Name",
+      "start": "Start Diagnosis"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "classes": [
+    {
+      "id": "seraphim_healer",
+      "title": { "ja": "熾天の癒し手", "en": "Seraphim Healer" },
+      "share_text": { "ja": "私のクラスは「熾天の癒し手」だった", "en": "My class is Seraphim Healer" },
+      "desc": {
+        "ja": "癒しの光を翼に宿す、ギルド公認の治癒術士。仲間の傷を瞬時に塞ぎ、窮地を“勝ち筋”へ変える。回復だけでなく結界や浄化にも長け、長期戦ほど真価を発揮する。",
+        "en": "A guild-certified healer who bears radiant wings. You mend wounds in an instant and turn desperate moments into winning chances. Skilled in barriers and cleansing as well—your true strength shines in prolonged battles."
+      }
+    },
+    {
+      "id": "torch_enchanter",
+      "title": { "ja": "灯火の魔導士", "en": "Torch Enchanter" },
+      "share_text": { "ja": "私のクラスは「灯火の魔導士」だった", "en": "My class is Torch Enchanter" },
+      "desc": {
+        "ja": "闇を裂く灯火で、術と道を同時に編む魔導士。小さな火種から広域結界まで操り、探索では道標、戦闘では燃える知略となる。じわじわ優位を積むタイプ。",
+        "en": "A mage who weaves both spells and safe paths with a guiding flame. From tiny sparks to wide-area wards, you serve as a beacon in exploration and a tactical blaze in combat. You win by steadily building advantage."
+      }
+    },
+    {
+      "id": "wind_bard",
+      "title": { "ja": "風謡の吟遊詩人", "en": "Wind Bard" },
+      "share_text": { "ja": "私のクラスは「風謡の吟遊詩人」だった", "en": "My class is Wind Bard" },
+      "desc": {
+        "ja": "風に言葉を乗せ、士気を操る旅の詩人。歌は加護となり、旋律は敵の足を鈍らせる。情報収集と交渉にも強く、パーティの“雰囲気”まで戦力に変える。",
+        "en": "A traveling bard who rides words on the wind and shapes morale. Your songs become boons, your melodies slow foes. Great at gathering intel and negotiating—turning even the party’s mood into power."
+      }
+    },
+    {
+      "id": "contract_diplomancer",
+      "title": { "ja": "契約の交渉術師", "en": "Contract Diplomancer" },
+      "share_text": { "ja": "私のクラスは「契約の交渉術師」だった", "en": "My class is Contract Diplomancer" },
+      "desc": {
+        "ja": "言葉と条件で戦況を動かす“契約”の使い手。敵味方の利害を読み、最短で合意点を作る。戦闘でも取引と誓約でバフ・デバフを仕掛け、主導権を握る。",
+        "en": "A master of contracts who moves battles through terms and leverage. You read interests on both sides and craft agreements fast. Even in combat, you impose buffs and debuffs through vows and deals—seizing control."
+      }
+    },
+    {
+      "id": "star_oracle",
+      "title": { "ja": "星見の予言者", "en": "Star Oracle" },
+      "share_text": { "ja": "私のクラスは「星見の予言者」だった", "en": "My class is Star Oracle" },
+      "desc": {
+        "ja": "星の巡りから“次に起こること”を読み取る占術師。危険の兆しを先に掴み、最適な選択肢へ導く。直感ではなく観測と推論で当てにいく、戦略型の予言者。",
+        "en": "An oracle who reads what comes next from the motion of the stars. You spot danger early and guide the party toward the best choices. Not mere intuition—your prophecies are strategic, built on observation and reasoning."
+      }
+    },
+    {
+      "id": "azure_archmage",
+      "title": { "ja": "蒼天の大魔導", "en": "Azure Archmage" },
+      "share_text": { "ja": "私のクラスは「蒼天の大魔導」だった", "en": "My class is Azure Archmage" },
+      "desc": {
+        "ja": "蒼天の魔力を束ね、圧倒的火力で戦線を切り開く大魔導。広範囲殲滅と一点突破を使い分け、勝負所で空気を塗り替える。強いが燃費は重め、準備が鍵。",
+        "en": "An archmage who gathers the power of the azure sky and breaks frontlines with overwhelming magic. You switch between wide-area clearing and decisive bursts—rewriting the battlefield at key moments. Powerful, but resource-hungry—prep is everything."
+      }
+    },
+    {
+      "id": "castle_artificer",
+      "title": { "ja": "城塞の工匠", "en": "Castle Artificer" },
+      "share_text": { "ja": "私のクラスは「城塞の工匠」だった", "en": "My class is Castle Artificer" },
+      "desc": {
+        "ja": "守りを設計し、勝利の地形を作る技師。罠・障壁・支援装置で味方を強化し、敵を誘導して崩す。派手さより堅実。拠点戦や連戦で頼もしさが跳ね上がる。",
+        "en": "An engineer who designs defenses and builds winning terrain. Traps, barriers, and support devices empower allies and funnel enemies into defeat. Less flashy, more reliable—especially invaluable in sieges and long runs."
+      }
+    },
+    {
+      "id": "holy_sigil_paladin",
+      "title": { "ja": "聖印の聖騎士", "en": "Holy Sigil Paladin" },
+      "share_text": { "ja": "私のクラスは「聖印の聖騎士」だった", "en": "My class is Holy Sigil Paladin" },
+      "desc": {
+        "ja": "聖印を刻み、味方に加護を分け与える盾役。前線で攻撃を受け止めつつ、浄化と守護でパーティ全体の安定度を底上げする。正面突破が得意な王道タイプ。",
+        "en": "A frontline protector who inscribes holy sigils to share blessings. You absorb blows up front while reinforcing the party with cleansing and protection. A classic paladin—built for steadfast, head-on progress."
+      }
+    },
+    {
+      "id": "travel_ranger",
+      "title": { "ja": "旅路のレンジャー", "en": "Travel Ranger" },
+      "share_text": { "ja": "私のクラスは「旅路のレンジャー」だった", "en": "My class is Travel Ranger" },
+      "desc": {
+        "ja": "荒野でも迷わず進む、探索のエキスパート。地形・気配・痕跡から情報を拾い、危険を回避して最短ルートを通す。戦闘では機動力で攪乱し、確実に仕留める。",
+        "en": "An exploration expert who never loses the path, even in the wilds. You read terrain, signs, and traces to avoid danger and find the best route. In combat, you disrupt with mobility and finish cleanly."
+      }
+    },
+    {
+      "id": "thunder_rogue",
+      "title": { "ja": "迅雷の影盗賊", "en": "Thunder Rogue" },
+      "share_text": { "ja": "私のクラスは「迅雷の影盗賊」だった", "en": "My class is Thunder Rogue" },
+      "desc": {
+        "ja": "影に溶け、雷のように奪い取る奇襲の達人。隙を見抜く目が鋭く、短期決戦で爆発力を出す。戦いを長引かせないのが流儀。情報戦にも強い。",
+        "en": "A master of ambush who melts into shadows and strikes like lightning. You spot openings instantly and explode in short fights. Your style is to end battles fast—and you excel at information warfare too."
+      }
+    },
+    {
+      "id": "training_warlord",
+      "title": { "ja": "鍛錬の武王", "en": "Training Warlord" },
+      "share_text": { "ja": "私のクラスは「鍛錬の武王」だった", "en": "My class is Training Warlord" },
+      "desc": {
+        "ja": "日々の鍛錬を力に変える武の統率者。堅実な基本に強く、押し引きの判断が的確。味方の動きも整え、勝ち筋を再現する。積み重ね型で、伸びしろが大きい。",
+        "en": "A martial leader who turns daily training into real power. Strong fundamentals and sharp tempo control define you. You organize allies and reproduce winning patterns. A growth-type warlord with huge potential."
+      }
+    },
+    {
+      "id": "immortal_vanguard",
+      "title": { "ja": "不滅の守護戦士", "en": "Immortal Vanguard" },
+      "share_text": { "ja": "私のクラスは「不滅の守護戦士」だった", "en": "My class is Immortal Vanguard" },
+      "desc": {
+        "ja": "倒れないことが役割、前線の不落の盾。被弾を前提に耐え抜き、仲間が動ける時間を作る。守りの中に反撃の芽を仕込み、長期戦でじわじわ勝つ。",
+        "en": "An unbreakable frontline shield whose job is simply not to fall. You endure hits to buy time for allies. Within your defense, you plant the seeds of counterattacks—winning steadily in long battles."
+      }
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "stats": ["emp", "soc", "int", "ord", "adv", "exp", "res", "shd"],
+  "questions": [
+    {
+      "id": "q01",
+      "title": {
+        "ja": "冒険者ギルドに入った瞬間、どんな動きをする？",
+        "en": "The moment you step into the Adventurers' Guild, what do you do?"
+      },
+      "choices": [
+        {
+          "text": { "ja": "困ってそうな新人に声をかける", "en": "Check on a newbie who looks lost" },
+          "points": { "emp": 2, "soc": 1 }
+        },
+        {
+          "text": { "ja": "みんなを盛り上げる一言を放つ", "en": "Drop a line to hype everyone up" },
+          "points": { "exp": 2, "soc": 1 }
+        },
+        {
+          "text": { "ja": "掲示板を見て状況を把握する", "en": "Scan the quest board and assess the situation" },
+          "points": { "int": 2, "ord": 1 }
+        },
+        {
+          "text": { "ja": "目立たず席を確保して様子見", "en": "Secure a seat quietly and observe" },
+          "points": { "shd": 2, "int": 1 }
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "title": {
+        "ja": "初見ダンジョン。最初にやることは？",
+        "en": "A brand-new dungeon. What’s your first move?"
+      },
+      "choices": [
+        { "text": { "ja": "地図とルートを決める", "en": "Plan the route and mark a map" }, "points": { "ord": 2, "int": 1 } },
+        { "text": { "ja": "とりあえず入って探索開始", "en": "Jump in and start exploring" }, "points": { "adv": 2, "exp": 1 } },
+        { "text": { "ja": "仲間の装備や調子を確認", "en": "Check the party’s gear and condition" }, "points": { "res": 2, "emp": 1 } },
+        { "text": { "ja": "危険な罠を想定して慎重に", "en": "Move cautiously, assuming traps" }, "points": { "shd": 2, "ord": 1 } }
+      ]
+    },
+    {
+      "id": "q03",
+      "title": {
+        "ja": "仲間がミスして落ち込んでる。あなたは？",
+        "en": "A teammate messed up and looks down. You…?"
+      },
+      "choices": [
+        { "text": { "ja": "大丈夫、次いけるよと励ます", "en": "Encourage them: “You’ve got this next time.”" }, "points": { "emp": 2, "res": 1 } },
+        { "text": { "ja": "空気を変える冗談を言う", "en": "Crack a joke to reset the mood" }, "points": { "exp": 2, "soc": 1 } },
+        { "text": { "ja": "原因を整理して改善策を出す", "en": "Break down the cause and propose fixes" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "静かにフォローして被害を抑える", "en": "Quietly cover for them and minimize damage" }, "points": { "shd": 2, "res": 1 } }
+      ]
+    },
+    {
+      "id": "q04",
+      "title": {
+        "ja": "ボス前夜。いちばん大事にするのは？",
+        "en": "The night before the boss fight. What matters most?"
+      },
+      "choices": [
+        { "text": { "ja": "仲間の不安を減らして安心させる", "en": "Ease the team’s anxiety" }, "points": { "emp": 2, "res": 1 } },
+        { "text": { "ja": "作戦を整理して勝ち筋を固める", "en": "Organize strategy and lock the win condition" }, "points": { "ord": 2, "int": 1 } },
+        { "text": { "ja": "士気を上げる演出で燃やす", "en": "Boost morale with a bold vibe" }, "points": { "exp": 2, "soc": 1 } },
+        { "text": { "ja": "奇襲の一手を仕込む", "en": "Set up a surprise opening move" }, "points": { "adv": 2, "shd": 1 } }
+      ]
+    },
+    {
+      "id": "q05",
+      "title": {
+        "ja": "町で揉め事。あなたの解決法は？",
+        "en": "A dispute breaks out in town. How do you handle it?"
+      },
+      "choices": [
+        { "text": { "ja": "双方の気持ちを聞いて落とし所を作る", "en": "Hear both sides and find a soft landing" }, "points": { "emp": 2, "soc": 1 } },
+        { "text": { "ja": "交渉して条件をまとめる", "en": "Negotiate and structure the terms" }, "points": { "soc": 2, "ord": 1 } },
+        { "text": { "ja": "論理で筋を通して落ち着かせる", "en": "Calm it down with logic and reasoning" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "影で根回しして火種を消す", "en": "Handle it behind the scenes and snuff it out" }, "points": { "shd": 2, "soc": 1 } }
+      ]
+    },
+
+    {
+      "id": "q06",
+      "title": { "ja": "強敵に遭遇。最初の一手は？", "en": "A tough enemy appears. Your opening move?" },
+      "choices": [
+        { "text": { "ja": "守りを固めて様子を見る", "en": "Turtle up and read the enemy" }, "points": { "res": 2, "ord": 1 } },
+        { "text": { "ja": "弱点を探して試す", "en": "Probe for weaknesses" }, "points": { "int": 2, "adv": 1 } },
+        { "text": { "ja": "一気に畳みかけて主導権を取る", "en": "Press hard and seize momentum" }, "points": { "adv": 2, "exp": 1 } },
+        { "text": { "ja": "位置取りで有利を作る", "en": "Reposition to create advantage" }, "points": { "shd": 2, "int": 1 } }
+      ]
+    },
+    {
+      "id": "q07",
+      "title": { "ja": "仲間がケガ。あなたは？", "en": "A teammate is injured. You…" },
+      "choices": [
+        { "text": { "ja": "回復と安全確保を最優先", "en": "Prioritize healing and safety" }, "points": { "res": 2, "emp": 1 } },
+        { "text": { "ja": "励ましつつ士気を落とさない", "en": "Keep morale up while supporting them" }, "points": { "emp": 2, "soc": 1 } },
+        { "text": { "ja": "撤退判断も含めて状況整理", "en": "Reassess the situation, including retreat" }, "points": { "ord": 2, "int": 1 } },
+        { "text": { "ja": "敵の注意を逸らして時間を稼ぐ", "en": "Draw aggro and buy time" }, "points": { "shd": 2, "adv": 1 } }
+      ]
+    },
+    {
+      "id": "q08",
+      "title": { "ja": "未知の宝箱。開ける？", "en": "A mysterious chest. Open it?" },
+      "choices": [
+        { "text": { "ja": "罠チェックしてから開ける", "en": "Check for traps first" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "開ける、ロマンは大事", "en": "Open it. Romance matters." }, "points": { "adv": 2, "exp": 1 } },
+        { "text": { "ja": "仲間と相談して決める", "en": "Decide with the party" }, "points": { "soc": 2, "emp": 1 } },
+        { "text": { "ja": "誰も見てないならこっそり…", "en": "If no one’s watching… quietly." }, "points": { "shd": 2, "adv": 1 } }
+      ]
+    },
+    {
+      "id": "q09",
+      "title": { "ja": "旅の途中、迷子の子ども。どうする？", "en": "On the road, you find a lost child. What do you do?" },
+      "choices": [
+        { "text": { "ja": "落ち着かせて一緒に探す", "en": "Calm them down and help search" }, "points": { "emp": 2, "res": 1 } },
+        { "text": { "ja": "周囲に聞き込みして情報収集", "en": "Ask around and gather info" }, "points": { "soc": 2, "int": 1 } },
+        { "text": { "ja": "効率よく捜索ルートを組む", "en": "Set an efficient search route" }, "points": { "ord": 2, "int": 1 } },
+        { "text": { "ja": "影から見守りつつ親を誘導", "en": "Watch from the shadows and guide the parent" }, "points": { "shd": 2, "emp": 1 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "title": { "ja": "長旅で空気が重い。あなたの一手は？", "en": "The journey is long and the mood is heavy. Your move?" },
+      "choices": [
+        { "text": { "ja": "みんなの話を聞いて整える", "en": "Listen to everyone and stabilize the mood" }, "points": { "emp": 2, "soc": 1 } },
+        { "text": { "ja": "歌や話で盛り上げる", "en": "Lift spirits with stories or songs" }, "points": { "exp": 2, "soc": 1 } },
+        { "text": { "ja": "休憩や行程を見直す", "en": "Adjust breaks and schedule" }, "points": { "ord": 2, "res": 1 } },
+        { "text": { "ja": "先回りして面倒を潰す", "en": "Move ahead and remove upcoming hassles" }, "points": { "shd": 2, "int": 1 } }
+      ]
+    },
+
+    {
+      "id": "q11",
+      "title": { "ja": "作戦会議。あなたの役割は？", "en": "Strategy meeting. What role do you take?" },
+      "choices": [
+        { "text": { "ja": "全体をまとめて意思決定", "en": "Facilitate and drive decisions" }, "points": { "soc": 2, "ord": 1 } },
+        { "text": { "ja": "情報を整理して穴を埋める", "en": "Organize information and close gaps" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "士気を上げて場を動かす", "en": "Energize the room and move things forward" }, "points": { "exp": 2, "soc": 1 } },
+        { "text": { "ja": "裏で必要な準備を済ませる", "en": "Handle needed prep quietly behind the scenes" }, "points": { "shd": 2, "res": 1 } }
+      ]
+    },
+    {
+      "id": "q12",
+      "title": { "ja": "不意打ちを受けた。まず何する？", "en": "You’re ambushed. What do you do first?" },
+      "choices": [
+        { "text": { "ja": "盾役として味方を守る", "en": "Protect the party as a frontliner" }, "points": { "res": 2, "ord": 1 } },
+        { "text": { "ja": "反撃の糸口を探す", "en": "Look for an opening to counter" }, "points": { "int": 2, "adv": 1 } },
+        { "text": { "ja": "勢いで押し返す", "en": "Push back with momentum" }, "points": { "adv": 2, "exp": 1 } },
+        { "text": { "ja": "煙に巻いて体勢を立て直す", "en": "Disengage and reset positioning" }, "points": { "shd": 2, "ord": 1 } }
+      ]
+    },
+
+    {
+      "id": "q13",
+      "title": { "ja": "村人からお願い。報酬が少ない。どうする？", "en": "A villager asks for help, but the reward is small. You…" },
+      "choices": [
+        { "text": { "ja": "困ってるなら助ける", "en": "Help anyway—they’re in trouble" }, "points": { "emp": 2, "res": 1 } },
+        { "text": { "ja": "条件交渉して双方納得にする", "en": "Negotiate fair terms for both sides" }, "points": { "soc": 2, "ord": 1 } },
+        { "text": { "ja": "リスクを計算して判断", "en": "Calculate risk and decide" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "裏で別の報酬ルートを探す", "en": "Find an alternate reward route quietly" }, "points": { "shd": 2, "int": 1 } }
+      ]
+    },
+    {
+      "id": "q14",
+      "title": { "ja": "未知の魔法書を見つけた。どう扱う？", "en": "You find an unknown spellbook. What do you do with it?" },
+      "choices": [
+        { "text": { "ja": "安全に封印して持ち帰る", "en": "Securely seal it and bring it back" }, "points": { "ord": 2, "res": 1 } },
+        { "text": { "ja": "内容を読んで仕組みを理解", "en": "Read it and understand the mechanism" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "試してみる、面白そう", "en": "Try it—sounds fun" }, "points": { "adv": 2, "exp": 1 } },
+        { "text": { "ja": "人に見せずこっそり研究", "en": "Study it privately without showing anyone" }, "points": { "shd": 2, "int": 1 } }
+      ]
+    },
+
+    {
+      "id": "q15",
+      "title": { "ja": "パーティに新メンバー。どう迎える？", "en": "A new member joins the party. How do you welcome them?" },
+      "choices": [
+        { "text": { "ja": "安心できるよう話を聞く", "en": "Listen and make them feel safe" }, "points": { "emp": 2, "soc": 1 } },
+        { "text": { "ja": "場を盛り上げて打ち解ける", "en": "Break the ice with energy" }, "points": { "exp": 2, "soc": 1 } },
+        { "text": { "ja": "役割分担を整理して明確に", "en": "Clarify roles and responsibilities" }, "points": { "ord": 2, "int": 1 } },
+        { "text": { "ja": "様子見して相性を測る", "en": "Observe first and gauge compatibility" }, "points": { "shd": 2, "int": 1 } }
+      ]
+    },
+
+    {
+      "id": "q16",
+      "title": { "ja": "敵が強すぎる。撤退する？", "en": "The enemy is too strong. Do you retreat?" },
+      "choices": [
+        { "text": { "ja": "撤退して立て直す", "en": "Retreat and regroup" }, "points": { "ord": 2, "res": 1 } },
+        { "text": { "ja": "味方を守りながら安全に下がる", "en": "Fall back safely while protecting allies" }, "points": { "res": 2, "emp": 1 } },
+        { "text": { "ja": "勝ち筋を探して粘る", "en": "Look for a win condition and hold" }, "points": { "int": 2, "adv": 1 } },
+        { "text": { "ja": "陽動して逃げ道を作る", "en": "Create an escape route with a diversion" }, "points": { "shd": 2, "adv": 1 } }
+      ]
+    },
+
+    {
+      "id": "q17",
+      "title": { "ja": "祝宴の場。あなたは何する？", "en": "At a celebration. What do you do?" },
+      "choices": [
+        { "text": { "ja": "みんなに声をかけて輪を作る", "en": "Talk to people and connect the room" }, "points": { "soc": 2, "emp": 1 } },
+        { "text": { "ja": "芸や演出で盛り上げる", "en": "Entertain and elevate the vibe" }, "points": { "exp": 2, "soc": 1 } },
+        { "text": { "ja": "明日の準備をこっそり進める", "en": "Quietly prepare for tomorrow" }, "points": { "ord": 2, "shd": 1 } },
+        { "text": { "ja": "隅で観察して情報を拾う", "en": "Observe quietly and pick up intel" }, "points": { "shd": 2, "int": 1 } }
+      ]
+    },
+
+    {
+      "id": "q18",
+      "title": { "ja": "仲間内で意見が割れた。どうまとめる？", "en": "The party is split on a decision. How do you resolve it?" },
+      "choices": [
+        { "text": { "ja": "全員の気持ちを聞いて折衷案", "en": "Hear feelings and propose a compromise" }, "points": { "emp": 2, "soc": 1 } },
+        { "text": { "ja": "多数決やルールで決める", "en": "Decide by rules or vote" }, "points": { "ord": 2, "soc": 1 } },
+        { "text": { "ja": "メリデメ整理して最適解へ", "en": "List pros/cons and choose the optimal path" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "裏で根回しして方向を揃える", "en": "Align direction via behind-the-scenes groundwork" }, "points": { "shd": 2, "soc": 1 } }
+      ]
+    },
+
+    {
+      "id": "q19",
+      "title": { "ja": "危険地帯を通る。進行方法は？", "en": "Crossing a dangerous zone. How do you proceed?" },
+      "choices": [
+        { "text": { "ja": "先行偵察して安全を確保", "en": "Scout ahead and secure safety" }, "points": { "shd": 2, "int": 1 } },
+        { "text": { "ja": "隊列を整えて慎重に進む", "en": "Maintain formation and move carefully" }, "points": { "ord": 2, "res": 1 } },
+        { "text": { "ja": "スピード勝負で一気に抜ける", "en": "Dash through quickly" }, "points": { "adv": 2, "exp": 1 } },
+        { "text": { "ja": "不安な人のペースに合わせる", "en": "Match pace to whoever feels uneasy" }, "points": { "emp": 2, "res": 1 } }
+      ]
+    },
+
+    {
+      "id": "q20",
+      "title": { "ja": "謎のNPCが意味深な忠告。どう受け取る？", "en": "A mysterious NPC gives a cryptic warning. How do you take it?" },
+      "choices": [
+        { "text": { "ja": "意図を読み解いて備える", "en": "Interpret the intent and prepare" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "とりあえず信じて慎重に", "en": "Trust it for now and proceed carefully" }, "points": { "res": 2, "emp": 1 } },
+        { "text": { "ja": "話を広げて情報を引き出す", "en": "Engage and extract more info" }, "points": { "soc": 2, "int": 1 } },
+        { "text": { "ja": "裏があると見て距離を取る", "en": "Assume there’s a catch and keep distance" }, "points": { "shd": 2, "int": 1 } }
+      ]
+    },
+
+    {
+      "id": "q21",
+      "title": { "ja": "装備が壊れた。どう立て直す？", "en": "Your gear breaks. How do you recover?" },
+      "choices": [
+        { "text": { "ja": "応急修理して当面しのぐ", "en": "Patch it up temporarily" }, "points": { "ord": 2, "res": 1 } },
+        { "text": { "ja": "代替案を考えて戦い方を変える", "en": "Adapt your playstyle with alternatives" }, "points": { "int": 2, "adv": 1 } },
+        { "text": { "ja": "仲間に頼って連携で補う", "en": "Lean on teamwork and coordination" }, "points": { "soc": 2, "emp": 1 } },
+        { "text": { "ja": "目立たない立ち回りに切り替える", "en": "Switch to a low-profile approach" }, "points": { "shd": 2, "res": 1 } }
+      ]
+    },
+
+    {
+      "id": "q22",
+      "title": { "ja": "報酬の分配。あなたはどうする？", "en": "Loot distribution. What do you do?" },
+      "choices": [
+        { "text": { "ja": "公平に分けて揉めないように", "en": "Split fairly to avoid conflict" }, "points": { "ord": 2, "soc": 1 } },
+        { "text": { "ja": "困ってる人に多めに渡す", "en": "Give more to someone who needs it" }, "points": { "emp": 2, "res": 1 } },
+        { "text": { "ja": "みんなが納得する形を提案", "en": "Propose a distribution everyone accepts" }, "points": { "soc": 2, "int": 1 } },
+        { "text": { "ja": "自分は少なめで裏で動く", "en": "Take less and move quietly" }, "points": { "shd": 2, "ord": 1 } }
+      ]
+    },
+
+    {
+      "id": "q23",
+      "title": { "ja": "大逆転のチャンス。賭ける？", "en": "A comeback opportunity appears. Do you take the gamble?" },
+      "choices": [
+        { "text": { "ja": "賭ける、今が勝負", "en": "Yes. Now’s the moment" }, "points": { "adv": 2, "exp": 1 } },
+        { "text": { "ja": "条件が揃うまで待つ", "en": "Wait until conditions are right" }, "points": { "ord": 2, "int": 1 } },
+        { "text": { "ja": "勝率を計算して決める", "en": "Calculate odds before deciding" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "裏から崩して確実にする", "en": "Make it certain by undermining from behind" }, "points": { "shd": 2, "adv": 1 } }
+      ]
+    },
+
+    {
+      "id": "q24",
+      "title": { "ja": "仲間の秘密を知った。どうする？", "en": "You learn a teammate’s secret. What do you do?" },
+      "choices": [
+        { "text": { "ja": "本人が話すまで守る", "en": "Keep it until they’re ready" }, "points": { "emp": 2, "res": 1 } },
+        { "text": { "ja": "必要なら皆に共有する準備", "en": "Prepare to share if it becomes necessary" }, "points": { "ord": 2, "soc": 1 } },
+        { "text": { "ja": "背景を理解して支える", "en": "Understand the context and support them" }, "points": { "int": 2, "emp": 1 } },
+        { "text": { "ja": "状況によっては利用も考える", "en": "Consider using it depending on the situation" }, "points": { "shd": 2, "int": 1 } }
+      ]
+    },
+
+    {
+      "id": "q25",
+      "title": { "ja": "危険な近道を見つけた。使う？", "en": "You discover a risky shortcut. Use it?" },
+      "choices": [
+        { "text": { "ja": "使う、冒険は近道から", "en": "Use it. Adventure loves shortcuts" }, "points": { "adv": 2, "exp": 1 } },
+        { "text": { "ja": "安全第一で通常ルート", "en": "Stick to the safe route" }, "points": { "res": 2, "ord": 1 } },
+        { "text": { "ja": "情報を集めてから判断", "en": "Gather intel before deciding" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "先に偵察して成功率を上げる", "en": "Scout first to raise success odds" }, "points": { "shd": 2, "int": 1 } }
+      ]
+    },
+
+    {
+      "id": "q26",
+      "title": { "ja": "敵の城に潜入。得意なのは？", "en": "Infiltrating an enemy castle—your strength is…" },
+      "choices": [
+        { "text": { "ja": "無駄のない手順で確実に", "en": "A clean, reliable procedure" }, "points": { "ord": 2, "int": 1 } },
+        { "text": { "ja": "気配を消して忍び込む", "en": "Sneaking in unnoticed" }, "points": { "shd": 2, "int": 1 } },
+        { "text": { "ja": "突発に強い、臨機応変", "en": "Improvising under chaos" }, "points": { "adv": 2, "exp": 1 } },
+        { "text": { "ja": "仲間を守って撤退も視野", "en": "Protecting allies with retreat in mind" }, "points": { "res": 2, "emp": 1 } }
+      ]
+    },
+
+    {
+      "id": "q27",
+      "title": { "ja": "強敵と対話のチャンス。どう話す？", "en": "You get a chance to talk with a powerful foe. How do you speak?" },
+      "choices": [
+        { "text": { "ja": "相手の気持ちを探って共感", "en": "Probe their feelings and empathize" }, "points": { "emp": 2, "soc": 1 } },
+        { "text": { "ja": "条件を提示して交渉", "en": "Offer terms and negotiate" }, "points": { "soc": 2, "ord": 1 } },
+        { "text": { "ja": "矛盾を突いて優位を取る", "en": "Exploit contradictions to gain advantage" }, "points": { "int": 2, "shd": 1 } },
+        { "text": { "ja": "挑発して主導権を握る", "en": "Provoke to seize initiative" }, "points": { "exp": 2, "adv": 1 } }
+      ]
+    },
+
+    {
+      "id": "q28",
+      "title": { "ja": "旅のゴール。いちばん嬉しい瞬間は？", "en": "At the end of the journey, what moment makes you happiest?" },
+      "choices": [
+        { "text": { "ja": "みんなが無事で笑ってる", "en": "Everyone is safe and smiling" }, "points": { "emp": 2, "res": 1 } },
+        { "text": { "ja": "歴史に残る大成功を成し遂げた", "en": "You achieved a legendary success" }, "points": { "exp": 2, "soc": 1 } },
+        { "text": { "ja": "納得のいく最適解に辿り着いた", "en": "You reached the best possible outcome" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "未知の場所を切り開いた", "en": "You opened a path into the unknown" }, "points": { "adv": 2, "shd": 1 } }
+      ]
+    },
+
+    {
+      "id": "q29",
+      "title": { "ja": "仲間からリーダーを任された。どう動く？", "en": "You’re appointed leader. How do you lead?" },
+      "choices": [
+        { "text": { "ja": "安心できる空気を作って支える", "en": "Create safety and support" }, "points": { "emp": 2, "soc": 1 } },
+        { "text": { "ja": "決めるところは決めて統率", "en": "Make firm calls and coordinate" }, "points": { "ord": 2, "soc": 1 } },
+        { "text": { "ja": "情報と分析で判断を支える", "en": "Guide decisions with analysis" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "裏から全体を回して成功させる", "en": "Run things quietly from behind to ensure success" }, "points": { "shd": 2, "res": 1 } }
+      ]
+    },
+
+    {
+      "id": "q30",
+      "title": { "ja": "最後の一撃。あなたのスタイルは？", "en": "The finishing blow. What’s your style?" },
+      "choices": [
+        { "text": { "ja": "仲間の勝利を支える一手", "en": "A supportive move that secures victory" }, "points": { "res": 2, "emp": 1 } },
+        { "text": { "ja": "観客が沸く派手な決め技", "en": "A flashy finisher that makes the crowd roar" }, "points": { "exp": 2, "soc": 1 } },
+        { "text": { "ja": "緻密に詰めた確実な一撃", "en": "A precise, guaranteed strike" }, "points": { "int": 2, "ord": 1 } },
+        { "text": { "ja": "誰にも気づかれない致命の一手", "en": "A silent, unseen lethal move" }, "points": { "shd": 2, "adv": 1 } }
+      ]
+    }
+  ]
+}
