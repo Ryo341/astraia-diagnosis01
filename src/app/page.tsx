@@ -204,13 +204,16 @@ export default function TitlePage() {
         {/* タイトル */}
         <div className="text-center">
           <div
-            className="text-[54px] leading-[1.05] md:text-[78px]"
-            style={titleShadow}
-          >
-            ASTRAIA
-            <br />
-            DIAGNOSIS
-          </div>
+  className="leading-[1.05] px-3 md:px-0"
+  style={{
+    ...titleShadow,
+    fontSize: "clamp(40px, 10vw, 78px)",
+  }}
+>
+  ASTRAIA
+  <br />
+  DIAGNOSIS
+</div>
           <div className="mt-4 text-xs text-white/85">{t.subtitle}</div>
 
           {/* ドットキャラ4体 */}
