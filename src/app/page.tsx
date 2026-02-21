@@ -2,6 +2,7 @@
 
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { DotGothic16, Press_Start_2P } from "next/font/google";
 
@@ -100,12 +101,18 @@ const TEXT = {
     choose: "コマンドをえらべ",
     start: "はじめる",
     pressEnter: "Enterで決定",
+    terms: "利用規約",
+    privacy: "プライバシーポリシー",
+    xLink: "Xのリンク",
   },
   en: {
     subtitle: "Bright classic fantasy",
     choose: "Choose a command",
     start: "Start",
     pressEnter: "Press Enter",
+    terms: "Terms",
+    privacy: "Privacy",
+    xLink: "X Link",
   },
 } as const;
 
@@ -174,33 +181,59 @@ export default function TitlePage() {
       {/* ほんのり暗幕 */}
       <div className="fixed inset-0 -z-10 bg-black/15" />
 
-      {/* 言語ボタン（右上） */}
-      <div className="fixed right-6 top-6 z-20 flex items-center gap-3">
-        <button
-          onClick={() => onSetLang("ja")}
-          className={[
-            "rounded-xl border px-4 py-2 text-sm transition backdrop-blur",
-            lang === "ja"
-              ? "border-white/35 bg-white/20"
-              : "border-white/20 bg-white/10 hover:bg-white/15",
-          ].join(" ")}
-        >
-          日本語
-        </button>
-        <button
-          onClick={() => onSetLang("en")}
-          className={[
-            "rounded-xl border px-4 py-2 text-sm transition backdrop-blur",
-            lang === "en"
-              ? "border-white/35 bg-white/20"
-              : "border-white/20 bg-white/10 hover:bg-white/15",
-          ].join(" ")}
-        >
-          English
-        </button>
-      </div>
+      <header className="fixed inset-x-0 top-0 z-30">
+        <div className="mx-auto w-full max-w-6xl px-4 py-4 md:px-6">
+          <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/20 bg-black/25 px-3 py-3 backdrop-blur-md md:px-4">
+            <nav className="flex flex-wrap items-center gap-2">
+              <Link
+                href="/terms"
+                className="rounded-xl border border-white/20 bg-white/10 px-3 py-2 text-xs transition hover:bg-white/15"
+              >
+                {t.terms}
+              </Link>
+              <Link
+                href="/privacy"
+                className="rounded-xl border border-white/20 bg-white/10 px-3 py-2 text-xs transition hover:bg-white/15"
+              >
+                {t.privacy}
+              </Link>
+              <Link
+                href="/x-link"
+                className="rounded-xl border border-white/20 bg-white/10 px-3 py-2 text-xs transition hover:bg-white/15"
+              >
+                {t.xLink}
+              </Link>
+            </nav>
 
-      <div className="mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center px-6 py-14">
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => onSetLang("ja")}
+                className={[
+                  "rounded-xl border px-4 py-2 text-xs transition backdrop-blur",
+                  lang === "ja"
+                    ? "border-white/35 bg-white/20"
+                    : "border-white/20 bg-white/10 hover:bg-white/15",
+                ].join(" ")}
+              >
+                日本語
+              </button>
+              <button
+                onClick={() => onSetLang("en")}
+                className={[
+                  "rounded-xl border px-4 py-2 text-xs transition backdrop-blur",
+                  lang === "en"
+                    ? "border-white/35 bg-white/20"
+                    : "border-white/20 bg-white/10 hover:bg-white/15",
+                ].join(" ")}
+              >
+                English
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div className="mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center px-6 pb-14 pt-36 md:pt-28">
         {/* タイトル */}
         <div className="text-center">
           <div
